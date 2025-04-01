@@ -7,3 +7,14 @@ body{
 background-color: var(--cor-de-fundo);
 margin: 0;
 }
+
+@media screen and (min-width: 820px)
+    {
+        .conteriner_titutlo, .container_titulo--negrito{
+            font-size: 30px;
+        }
+    }
+       .conteriner_titutlo{
+        font-weight: 400;
+        display: block;
+       }
