@@ -8,13 +8,24 @@ background-color: var(--cor-de-fundo);
 margin: 0;
 }
 
-@media screen and (min-width: 820px)
-    {
-        .conteriner_titutlo, .container_titulo--negrito{
-            font-size: 30px;
-        }
+cabecalho{
+    background-color: var(--cor-cabecalho);
+    padding: 1em;
     }
-       .conteriner_titutlo{
-        font-weight: 400;
-        display: block;
-       }
+    .container{
+    display: flex;
+    align-items: center;
+    }
+    .container_imagem, .container_frase{
+        padding: 1em;
+    }
+    .container_titulo, .container_frase{
+    display:none;
+    }
+
+@media screen and (min-width: 820px) {
+    .container_titulo, .container_titulo--negrito{
+        font-size:30px;
+    }
+
+}
