@@ -1,4 +1,4 @@
-@import url(styles/header.css);
+@import url(STYLES/header.css);
 :root{
 --cor-de-fundo: hsl(19, 87%, 64%);
 --cor-cabecalho: #a73535;
@@ -22,5 +22,3 @@ cabecalho{
     .container_titulo, .container_frase{
     display:none;
     }
-
-
